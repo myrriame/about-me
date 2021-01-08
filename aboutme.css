@@ -26,24 +26,27 @@ body {
     max-width: 500px;
     margin: auto;
 }
-i {
+
+.job-title {
     font-size: 20px;
     color: rgb(233, 223, 223);
     font-family: 'Helvetica Neue', sans-serif;
-    align-items: center;
+    text-align: center;
 }
-h3 {
+
+.box-title {
     color: #c6d8dd;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 500px;
     margin: auto;
+    text-align: center;
 }
 
 /* h1{ */
         /* background-image:  */
         /* url("https://freight.cargo.site/w/2200/q/75/i/76a2ab4d25433a0420afeec40e7cc209e27b46d955b8724bd60d2b70c684868a/Fields43-UnchartedTerritories.jpg"); */
 /* } */
-p {
+.box-description {
     font-size: 14px;
     color: black;
     background-image: none;
@@ -53,7 +56,7 @@ p {
     padding: 20px;
     width: 375px;
     height: 150px;
-    opacity: 0.9;
+    opacity: 0.75;
     max-width: 500px;
     margin: auto;
   }
